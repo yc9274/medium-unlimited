@@ -5,7 +5,9 @@
   "version": "1.5.0",
   "manifest_version": 2,
   "background": {
-    "scripts": ["background.bundle.js"]
+    "scripts": [
+      "background.bundle.js"
+    ]
   },
   "browser_action": {
     "default_icon": "static/logo_128.png",
@@ -47,7 +49,9 @@
         "https://blog.hipolabs.com/*",
         "https://ux.shopify.com/*"
       ],
-      "js": ["main.bundle.js"]
+      "js": [
+        "main.bundle.js"
+      ]
     }
   ],
   "icons": {
@@ -92,5 +96,7 @@
     "https://blog.hipolabs.com/*",
     "https://ux.shopify.com/*"
   ],
-  "web_accessible_resources": ["static/*"]
+  "web_accessible_resources": [
+    "static/*"
+  ]
 }
