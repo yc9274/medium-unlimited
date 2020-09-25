@@ -40,11 +40,11 @@ module.exports = {
   plugins: [
     new CopyWebpackPlugin(
       [
-        {from: 'static', to: 'static'},
-        {from: 'src/html', to: 'html'},
-        {from: 'manifest.json', to: 'manifest.json'},
+        { from: 'static', to: 'static' },
+        { from: 'src/html', to: 'html' },
+        { from: 'manifest.json', to: 'manifest.json' },
       ],
-      {debug: true, context: '.'}
+      { debug: true, context: '.' }
     ),
   ],
 };
